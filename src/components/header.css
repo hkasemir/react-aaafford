@@ -1,0 +1,37 @@
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+.site-header {
+  background: #4776c2;
+  box-shadow: 0 2px 15px #888;
+}
+
+.site-header nav {
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.home-nav {
+  font-size: 1.5rem;
+}
+
+.page-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.page-nav li {
+  margin: 0 1rem;
+}
+
+.login-nav {
+}
