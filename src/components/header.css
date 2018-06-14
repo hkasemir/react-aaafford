@@ -1,10 +1,11 @@
-a {
+.site-header a {
   color: white;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-a:hover {
+.site-header a:hover,
+.active {
   color: #ddd;
 }
 

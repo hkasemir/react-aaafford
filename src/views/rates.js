@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { fetchRates } from '../services/aaafford-api-service';
+import { SITE_TITLE } from '../helpers/constants';
 
 class Rates extends Component {
   state = {
@@ -7,6 +8,7 @@ class Rates extends Component {
   };
 
   async componentDidMount() {
+    document.title = `${SITE_TITLE} | Rates`;
     const rates = await fetchRates();
     this.setState({ rates });
   }

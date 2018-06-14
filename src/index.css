@@ -3,3 +3,9 @@
   padding: 0;
   font-family: sans-serif;
 }
+
+.page-content {
+  padding: 3rem 2rem;
+  max-width: 60rem;
+  margin: auto;
+}

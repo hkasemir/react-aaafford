@@ -10,13 +10,15 @@ import Footer from './components/footer';
 
 export default () => (
   <Router>
-    <main className="">
+    <main>
       <Header />
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/rates" component={Rates} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/login" component={Login} />
+      <section className="page-content">
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/rates" component={Rates} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/login" component={Login} />
+      </section>
       <Footer />
     </main>
   </Router>
