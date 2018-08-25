@@ -22,3 +22,9 @@
   padding: 1rem;
   text-align: center;
 }
+
+@media (max-width: 700px) {
+  .value-prop {
+    flex-direction: column;
+  }
+}

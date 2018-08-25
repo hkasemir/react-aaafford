@@ -9,3 +9,8 @@
   max-width: 60rem;
   margin: auto;
 }
+
+:root {
+  --nav-blue: #4776c2;
+  --app-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+}
