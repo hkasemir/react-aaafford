@@ -1,20 +1,42 @@
+.actions {
+  margin: auto;
+  padding: 2rem;
+  max-width: var(--app-max-width);
+}
+
 .hero--container {
-  background: gray;
+  background: url(../images/mountainscape1x.jpg) center center no-repeat;
+  background-size: cover;
+  height: 300px;
 }
 
 .hero--title {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  color: white;
+  display: flex;
   font-size: 2.5rem;
+  line-height: 1.6;
   font-weight: 400;
+  height: 100%;
+  justify-content: center;
+  padding: 2rem;
   text-align: center;
+}
+
+.map {
+  border: 0;
+  display: block;
+  height: 450px;
+  margin: 2rem auto;
+  width: 600px;
 }
 
 .value-prop {
   display: flex;
-  margin: 2rem 0;
-}
-
-.value-prop h2 {
-  margin-bottom: 1rem;
+  margin: 2rem auto;
+  max-width: var(--app-max-width);
 }
 
 .value-prop div {
@@ -24,6 +46,13 @@
 }
 
 @media (max-width: 700px) {
+  .hero--title {
+    font-size: 1.6rem;
+  }
+  .map {
+    width: 300px;
+    height: 200px;
+  }
   .value-prop {
     flex-direction: column;
   }

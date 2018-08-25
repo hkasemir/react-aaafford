@@ -42,14 +42,52 @@ class Home extends Component {
             <Link to="/about">About us...</Link>
           </div>
         </section>
-        <section>
+        <section className="actions">
           <h2>Come Visit Us</h2>
           <p>
-            We are located in Frederick, Colorado off of Colorado Blvd (County
-            Road 13) on Hurt Street. We are just South of the Rocky Mountain
-            Christian Church, half mile South of Safeway, and North of the High
-            School.
+            We are located at 5970 Hurt Street in Frederick, Colorado off of
+            Colorado Blvd (County Road 13). We're just South of the Rocky
+            Mountain Christian Church, half mile South of Safeway, and North of
+            the High School.
           </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.610735375325!2d-104.94532268441162!3d40.106391082378586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c08d58d6d4bcd%3A0x6e213bb94c6f5a1e!2s5970+Hurt+St%2C+Frederick%2C+CO+80530!5e0!3m2!1sen!2sus!4v1535239031914"
+            title="map to 5970 Hurt St."
+            frameBorder="0"
+            className="map"
+            allowFullScreen
+          />
+          <h2>Get in Touch</h2>
+          <p>
+            Email <a href="mailto:mgr@aaafford.com">mgr@aaafford.com</a>
+            or call <a href="tel:+1-303-833-0692">(303) 833-0692</a> with any
+            questions or to set up an appointment.
+          </p>
+
+          <h2>Already a tenant?</h2>
+          <p>Here are some useful links</p>
+          <ul>
+            <li>
+              <a href="http://www.aaafford.com/Documents/AAAffordableStorageLease.pdf">
+                Lease Agreement
+              </a>
+            </li>
+            <li>
+              <a href="http://www.aaafford.com/Documents/AAAffordableVehicleLease.pdf">
+                Vehicle Lease Agreement
+              </a>
+            </li>
+            <li>
+              <a href="https://www.efirstbank.com/firstbank/person-to-person-transfers.htm">
+                Pay your bill online
+              </a>
+            </li>
+            <li>
+              <a href="http://www.youtube.com/watch?v=jDDfmYuKSIg">
+                Youtube how to work the security gate
+              </a>
+            </li>
+          </ul>
         </section>
       </section>
     );

@@ -4,6 +4,15 @@
   font-family: sans-serif;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
 .page-content {
   padding: 3rem 2rem;
   max-width: 60rem;
@@ -11,6 +20,7 @@
 }
 
 :root {
-  --nav-blue: #4776c2;
   --app-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  --app-max-width: 60rem;
+  --nav-blue: #4776c2;
 }
