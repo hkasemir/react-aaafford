@@ -16,7 +16,7 @@ class Rates extends Component {
   render() {
     const { rates } = this.state;
     return (
-      <section>
+      <section className="page-content">
         <h1>Rates</h1>
         <ul>
           {rates.map((rate) => (

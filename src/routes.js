@@ -12,13 +12,11 @@ export default () => (
   <Router>
     <main>
       <Header />
-      <section>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/rates" component={Rates} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/login" component={Login} />
-      </section>
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/rates" component={Rates} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/login" component={Login} />
       <Footer />
     </main>
   </Router>

@@ -3,6 +3,7 @@ import { SITE_TITLE } from '../helpers/constants';
 import vanImg from '../images/van.jpg';
 import securityImg from '../images/security-camera.jpg';
 import gateImg from '../images/gate.jpg';
+import bbbImg from '../images/blue-seal.png';
 
 export default class About extends PureComponent {
   componentDidMount() {
@@ -22,6 +23,12 @@ export default class About extends PureComponent {
           secure Self Storage facility with excellent service for local
           residents and businesses. We have an "A+" rating with the BBB and are
           a member of the Frederick Chamber of Commerce.
+          <a
+            href="http://www.bbb.org/wyoming-and-northern-colorado/business-reviews/storage-units-household-and-commercial/a-a-affordable-storage-in-frederick-co-46017948#sealclick"
+            target="_blank"
+          >
+            <img src={bbbImg} alt="A+ seal from the Better Business Bureau" />
+          </a>
         </p>
         <h2>Our Security</h2>
         <img src={securityImg} alt="security camera" />
