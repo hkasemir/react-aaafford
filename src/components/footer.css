@@ -1,3 +1,19 @@
+.footer-actions {
+  text-align: center;
+}
+
+.footer-actions a {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.75rem;
+}
+
+.footer-bbb {
+  display: block;
+  margin-left: auto;
+}
+
 .footer-container {
   background-color: #ddd;
   padding: 4rem;
@@ -5,4 +21,14 @@
 
 .copywrite {
   text-align: center;
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .copywrite {
+    margin-bottom: 1rem;
+  }
+  .footer-bbb {
+    margin: auto;
+  }
 }

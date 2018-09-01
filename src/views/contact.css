@@ -1,0 +1,20 @@
+.center {
+  text-align: center;
+}
+
+.portrait {
+  border-radius: var(--app-border-radium);
+  box-shadow: var(--app-box-shadow);
+  margin-bottom: 1rem;
+}
+
+.portrait-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portrait-container figcaption {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
 h2 {
   margin-bottom: 1rem;
 }
@@ -13,6 +17,15 @@ p {
   margin-bottom: 2rem;
 }
 
+a {
+  color: var(--nav-blue);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .page-content {
   padding: 3rem 2rem;
   max-width: 60rem;
@@ -20,6 +33,7 @@ p {
 }
 
 :root {
+  --app-border-radius: 6px;
   --app-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
   --app-max-width: 60rem;
   --nav-blue: #4776c2;

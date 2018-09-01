@@ -1,5 +1,6 @@
 .site-header a {
   color: white;
+  font-weight: 300;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -54,7 +55,6 @@
 
 .page-nav {
   display: flex;
-  list-style-type: none;
 }
 
 .page-nav li {

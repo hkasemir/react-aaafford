@@ -1,28 +1,27 @@
 .actions {
   margin: auto;
-  padding: 2rem;
   max-width: var(--app-max-width);
+  padding: 2rem;
 }
 
 .hero--container {
   background: url(../images/AAAstorage.jpg) center center no-repeat;
   background-size: cover;
-  height: 250;
+  height: 275px;
 }
 
 .hero--title {
-  align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
   box-sizing: border-box;
-  color: white;
-  display: flex;
   font-size: 2.5rem;
   line-height: 1.6;
   font-weight: 400;
-  height: 100%;
-  justify-content: center;
   padding: 2rem;
-  text-align: center;
+}
+
+.home-useful-links a {
+  display: inline-flex;
+  padding: 0.75rem 0;
 }
 
 .map {
@@ -34,15 +33,25 @@
 }
 
 .value-prop {
+  background-color: #eff5fb;
   display: flex;
-  margin: 2rem auto;
+  margin: auto;
+  padding: 2rem;
   max-width: var(--app-max-width);
 }
 
-.value-prop div {
+.value-prop--item {
+  display: flex;
   flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
   text-align: center;
+}
+
+.value-prop--link {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 700px) {
