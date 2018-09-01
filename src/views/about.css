@@ -3,4 +3,12 @@
   box-shadow: var(--app-box-shadow);
   display: block;
   margin: 0 auto 2rem;
+  width: 100%;
+}
+
+.bbb-link-img {
+  border-radius: var(--app-border-radius);
+  box-shadow: var(--app-box-shadow);
+  display: block;
+  margin: 0 auto 2rem;
 }

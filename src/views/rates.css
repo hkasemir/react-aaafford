@@ -1,0 +1,20 @@
+.rates-row td {
+  border-bottom: 1px solid #ddd;
+}
+
+.rates-table {
+  border-spacing: 0;
+  box-shadow: var(--app-box-shadow);
+  margin: 0 auto 2rem;
+  width: 300px;
+}
+
+.rates-table thead {
+  background-color: var(--light-blue);
+}
+
+.rates-table td,
+.rates-table th {
+  padding: 0.5rem;
+  text-align: left;
+}

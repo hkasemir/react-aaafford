@@ -35,7 +35,7 @@ export default class About extends PureComponent {
             <img
               src={bbbImg}
               alt="A+ seal from the Better Business Bureau"
-              className="about-img"
+              className="bbb-link-img"
             />
           </a>
         </p>
@@ -45,7 +45,10 @@ export default class About extends PureComponent {
           Our security system includes 24/7 security camera footage and an
           access gate with a coded keypad. We are always a quick phone call away
           whenever you have questions. If you need assistance with the gate
-          operation check out this short YouTube video.
+          operation check out{' '}
+          <a href="http://www.youtube.com/watch?v=jDDfmYuKSIg">
+            this short YouTube video.
+          </a>
         </p>
         <img src={gateImg} alt="our electronic gate" className="about-img" />
       </section>

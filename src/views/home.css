@@ -33,7 +33,7 @@
 }
 
 .value-prop {
-  background-color: #eff5fb;
+  background-color: var(--light-blue);
   display: flex;
   margin: auto;
   padding: 2rem;

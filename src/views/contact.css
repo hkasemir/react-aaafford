@@ -3,7 +3,7 @@
 }
 
 .portrait {
-  border-radius: var(--app-border-radium);
+  border-radius: var(--app-border-radius);
   box-shadow: var(--app-box-shadow);
   margin-bottom: 1rem;
 }

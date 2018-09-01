@@ -8,7 +8,7 @@ export default class Login extends PureComponent {
 
   render() {
     return (
-      <section>
+      <section className="page-content">
         <h1>Login / Register</h1>
       </section>
     );
